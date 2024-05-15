@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+
+body {
+    background: rgba(9, 9, 30, 0.995);
+}
+
+/* style of head */
+.heads {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    display:flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.heads .headers {
+    background-image: linear-gradient(43deg, #4158D0 10%, #C850C0 40%, #FFCC70 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.heads .headers i {
+    color: rgb(102, 98, 98);
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+
+.heads .navbar a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: lightslategrey;
+    text-transform: capitalize;
+    margin: .8rem;
+    font-weight: 700;
+}
+
+.heads .navbar a:hover {
+    transition: .5s all;
+    text-decoration-line: underline;
+    color: aliceblue;
+}
+
+.heads .navbar {
+    text-align: center;
+    justify-content: center;
+}
+
+/* style of head */
+
+/* style of section home */
+
+.home .head {
+    color: lightgray;
+    font-size: 4rem;
+    display: inline-table;
+    /* background-color: aqua; */
+    margin-left: 4rem;
+    font-weight: 700;
+    border: none;
+}
+
+.home .header {
+    background-image: linear-gradient(43deg, #4158D0 10%, #C850C0 40%, #FFCC70 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 4rem;
+    display: inline-flex;
+    /* background-color: aqua; */
+    margin-left: 4rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: none;
+}
+
+.home .heads {
+    color: gray;
+    font-size: 3rem;
+    display: inline-table;
+    /* background-color: aqua; */
+    margin-left: 3rem;
+    font-weight: 700;
+    border: none;
+}
+
+
+.home .pic {
+    width: 30%;
+    height: 50%;
+    background: transparent;
+    margin-top: -90rem;
+    margin-left: 65%;
+    /* background-color: blue; */
+}
+
+.home .icon {
+    color: grey;
+    border: 1px solid grey;
+    border-radius: .5rem;
+    padding: 15px;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 6rem;
+}
+
+.home .icon:hover {
+    box-shadow: 0px 0px 20px 1px white;
+    transition: all .5s;
+}
+
+
+/* style of section home */
+
+/* style of section about */
+.about {
+    background-color:rgb(26, 26, 31);
+    padding-top: 5px;
+    padding-bottom: 19px;
+}
+
+.about .con {
+    margin: 4rem;
+    text-align: center;
+}
+
+.about .con .con1 .head {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    border: none;
+    display: inline;
+
+}
+
+.about .con .con1 .header {
+    color: white;
+    text-align: right;
+    font-size: 3rem;
+    border: none;
+    font-weight: 700;
+    display: inline-flex;
+    background-image: linear-gradient(43deg, #4158D0 10%, #C850C0 40%, #FFCC70 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.about .con .pic {
+    margin-left: -70%;
+    border-radius: .5rem;
+    width: 40%;
+    height: 300px;
+}
+
+.about .con .text {
+    width: 63%;
+    margin-left:450px;
+    margin-top: -310px;
+    padding: 20px;
+    border-radius: .5rem;
+}
+
+
+.about .con .text .textes{
+    font-size: 1.2rem;
+    color: lightgrey;
+    font-weight: 700;
+}
+
+/* style of section about */
+
+/* style of section experience */
+
+.experience .con {
+    text-align: center;
+    margin: 20px;
+}
+
+ .head {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    border: none;
+    display: inline;
+}
+
+ .header {
+    color: white;
+    text-align: right;
+    font-size: 3rem;
+    border: none;
+    font-weight: 700;
+    display: inline-flex;
+    background-image: linear-gradient(43deg, #4158D0 10%, #C850C0 40%, #FFCC70 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.experience .con .con1 {
+    background-color:rgb(26, 26, 31);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem ;
+    padding: 20px;
+    text-align: left;
+    border-radius: .5rem;
+    
+}
+
+.experience .con .con1 .headers {
+    color: lightgrey;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.experience .con .con1 .text {
+    color: grey;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px
+}
+
+.experience .con i {
+    font-size: 4rem;
+    color: lightgrey;
+}
+/* style of section experience */
+
+
+
+
+/* style of section contacts */
+
+.contact {
+    text-align: center;
+    background-color: rgb(26, 26, 31);
+    padding-top: 5px;
+    padding-bottom: 19px;
+}
+
+.contact .con1{
+    margin-top: 3rem;
+}
+
+
+.contact .con1 .label{
+    color: lightgrey;
+    font-size: 30px;
+    margin-top: 6pc;
+    margin-bottom: 10pc;
+}
+
+.contact .input {
+    background-color:rgb(74, 67, 67) ;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: capitalize;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.btn {
+    border: 5px solid yellowgreen;
+    border-radius: 10px;
+    background-color: transparent;
+    color: yellowgreen;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: greenyellow;
+    box-shadow: 0px 0px 40px 2px white;
+    transition: all .5s;
+}
+
+/* style of section contacts */
+
